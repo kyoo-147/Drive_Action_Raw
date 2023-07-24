@@ -1,0 +1,2523 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="Placeholder" output_port_id="Placeholder" />
+		<IR name="Placeholder" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Placeholder" output_port_id="Placeholder" />
+		<IR name="Placeholder" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Placeholder" output_port_id="Placeholder" />
+		<IR name="Placeholder" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Placeholder" output_port_id="Placeholder:0" />
+		<IR name="Placeholder" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Placeholder" output_port_id="Placeholder:0" />
+		<IR name="Placeholder" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Placeholder" output_port_id="Placeholder:0" />
+		<IR name="Placeholder" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_1a_7x7/conv_3d/convolution" output_port_id="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Conv3d_1a_7x7/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Conv3d_1a_7x7/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Conv3d_1a_7x7/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_1a_7x7/Relu" output_port_id="RGB/inception_i3d/Conv3d_1a_7x7/Relu:0" />
+		<IR name="RGB/inception_i3d/Conv3d_1a_7x7/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_1a_7x7/Relu" output_port_id="RGB/inception_i3d/Conv3d_1a_7x7/Relu:0" />
+		<IR name="RGB/inception_i3d/Conv3d_1a_7x7/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/MaxPool3d_2a_3x3" output_port_id="RGB/inception_i3d/MaxPool3d_2a_3x3:0" />
+		<IR name="RGB/inception_i3d/MaxPool3d_2a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/MaxPool3d_2a_3x3" output_port_id="RGB/inception_i3d/MaxPool3d_2a_3x3:0" />
+		<IR name="RGB/inception_i3d/MaxPool3d_2a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/Relu" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2b_1x1/Relu" output_port_id="RGB/inception_i3d/Conv3d_2b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/Relu" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Conv3d_2c_3x3/Relu" output_port_id="RGB/inception_i3d/Conv3d_2c_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Conv3d_2c_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/MaxPool3d_3a_3x3" output_port_id="RGB/inception_i3d/MaxPool3d_3a_3x3:0" />
+		<IR name="RGB/inception_i3d/MaxPool3d_3a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/MaxPool3d_3a_3x3" output_port_id="RGB/inception_i3d/MaxPool3d_3a_3x3:0" />
+		<IR name="RGB/inception_i3d/MaxPool3d_3a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/concat" output_port_id="RGB/inception_i3d/Mixed_3b/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3b/concat" output_port_id="RGB/inception_i3d/Mixed_3b/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_3b/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/concat" output_port_id="RGB/inception_i3d/Mixed_3c/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_3c/concat" output_port_id="RGB/inception_i3d/Mixed_3c/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_3c/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/MaxPool3d_4a_3x3" output_port_id="RGB/inception_i3d/MaxPool3d_4a_3x3:0" />
+		<IR name="RGB/inception_i3d/MaxPool3d_4a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/MaxPool3d_4a_3x3" output_port_id="RGB/inception_i3d/MaxPool3d_4a_3x3:0" />
+		<IR name="RGB/inception_i3d/MaxPool3d_4a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/concat" output_port_id="RGB/inception_i3d/Mixed_4b/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4b/concat" output_port_id="RGB/inception_i3d/Mixed_4b/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4b/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/concat" output_port_id="RGB/inception_i3d/Mixed_4c/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4c/concat" output_port_id="RGB/inception_i3d/Mixed_4c/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4c/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/concat" output_port_id="RGB/inception_i3d/Mixed_4d/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4d/concat" output_port_id="RGB/inception_i3d/Mixed_4d/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4d/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/concat" output_port_id="RGB/inception_i3d/Mixed_4e/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4e/concat" output_port_id="RGB/inception_i3d/Mixed_4e/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4e/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/concat" output_port_id="RGB/inception_i3d/Mixed_4f/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_4f/concat" output_port_id="RGB/inception_i3d/Mixed_4f/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_4f/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/MaxPool3d_5a_2x2" output_port_id="RGB/inception_i3d/MaxPool3d_5a_2x2:0" />
+		<IR name="RGB/inception_i3d/MaxPool3d_5a_2x2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/MaxPool3d_5a_2x2" output_port_id="RGB/inception_i3d/MaxPool3d_5a_2x2:0" />
+		<IR name="RGB/inception_i3d/MaxPool3d_5a_2x2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_2/Conv3d_0a_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/concat" output_port_id="RGB/inception_i3d/Mixed_5b/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5b/concat" output_port_id="RGB/inception_i3d/Mixed_5b/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_5b/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_0/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_1/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0a_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_2/Conv3d_0b_3x3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/MaxPool3d_0a_3x3" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/MaxPool3d_0a_3x3:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/MaxPool3d_0a_3x3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul_copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/mul:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/sub" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/batch_norm/batch_norm/add_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/Relu:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/Branch_3/Conv3d_0b_1x1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/concat" output_port_id="RGB/inception_i3d/Mixed_5c/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mixed_5c/concat" output_port_id="RGB/inception_i3d/Mixed_5c/concat:0" />
+		<IR name="RGB/inception_i3d/Mixed_5c/concat" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Logits/AvgPool3D" output_port_id="RGB/inception_i3d/Logits/AvgPool3D:0" />
+		<IR name="RGB/inception_i3d/Logits/AvgPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Logits/AvgPool3D" output_port_id="RGB/inception_i3d/Logits/AvgPool3D:0" />
+		<IR name="RGB/inception_i3d/Logits/AvgPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/w/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/w/read" output_port_id="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/w/read:0" />
+		<IR name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/w/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/convolution:0" />
+		<IR name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/convolution" output_port_id="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/convolution:0" />
+		<IR name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/Reshape" output_port_id="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/Reshape:0" />
+		<IR name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/Reshape" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/Reshape" output_port_id="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/Reshape:0" />
+		<IR name="RGB/inception_i3d/Logits/Conv3d_0c_1x1/conv_3d/Reshape" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="ReduceMean_1648" output_port_id="RGB/inception_i3d/Mean:0" />
+		<IR name="ReduceMean_1648" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="RGB/inception_i3d/Mean" output_port_id="RGB/inception_i3d/Mean:0" />
+		<IR name="ReduceMean_1648" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Softmax" output_port_id="Softmax:0" />
+		<IR name="Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Softmax" output_port_id="Softmax:0" />
+		<IR name="Softmax" output_port_id="1" />
+	</map>
+</mapping>
